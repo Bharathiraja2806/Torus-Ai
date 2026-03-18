@@ -24,7 +24,6 @@ def inject_styles() -> None:
 
         /* Hide all Streamlit branding */
         header {visibility: hidden;}
-        #MainMenu {visibility: hidden;}
 
         /* Remove extra spacing */
         .block-container {
