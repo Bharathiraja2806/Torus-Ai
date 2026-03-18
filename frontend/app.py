@@ -22,18 +22,19 @@ def inject_styles() -> None:
             font-family: "Aptos", "Segoe UI", "Trebuchet MS", sans-serif;
         }
 
-        /* Hide all Streamlit branding */
-        header {visibility: hidden;}
-
-        /* Remove extra spacing */
-        .block-container {
-            padding-top: 0rem;
-            padding-bottom: 0rem;
+        /* Hide ONLY top toolbar */
+        [data-testid="stToolbar"] {
+            display: none;
         }
 
-        /* Optional: make app full screen feel */
-        .css-18e3th9 {
-            padding-top: 0rem;
+        /* Hide Streamlit menu (☰) */
+        #MainMenu {
+            visibility: hidden;
+        }
+
+        /* Hide footer */
+        footer {
+            visibility: hidden;
         }
 
         .stApp {
