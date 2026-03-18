@@ -27,16 +27,6 @@ def inject_styles() -> None:
             display: none;
         }
 
-        /* Hide Streamlit menu (☰) */
-        #MainMenu {
-            visibility: hidden;
-        }
-
-        /* Hide footer */
-        footer {
-            visibility: hidden;
-        }
-
         .stApp {
             background:
                 radial-gradient(circle at top left, rgba(59, 130, 246, 0.12), transparent 28%),
