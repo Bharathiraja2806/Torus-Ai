@@ -22,11 +22,6 @@ def inject_styles() -> None:
             font-family: "Aptos", "Segoe UI", "Trebuchet MS", sans-serif;
         }
 
-        /* Hide ONLY top toolbar */
-        [data-testid="stToolbar"] {
-            display: none;
-        }
-
         .stApp {
             background:
                 radial-gradient(circle at top left, rgba(59, 130, 246, 0.12), transparent 28%),
