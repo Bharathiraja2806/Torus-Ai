@@ -4,7 +4,7 @@ import time
 import requests
 import streamlit as st
 
-API_URL = os.getenv("BACKEND_API_URL", "http://127.0.0.1:5000")
+API_URL = os.getenv("BACKEND_API_URL", "https://torus-ai.onrender.com")
 REQUEST_TIMEOUT = 60
 
 st.set_page_config(
