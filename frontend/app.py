@@ -22,6 +22,21 @@ def inject_styles() -> None:
             font-family: "Aptos", "Segoe UI", "Trebuchet MS", sans-serif;
         }
 
+        /* Hide all Streamlit branding */
+        header {visibility: hidden;}
+        #MainMenu {visibility: hidden;}
+
+        /* Remove extra spacing */
+        .block-container {
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+        }
+
+        /* Optional: make app full screen feel */
+        .css-18e3th9 {
+            padding-top: 0rem;
+        }
+
         .stApp {
             background:
                 radial-gradient(circle at top left, rgba(59, 130, 246, 0.12), transparent 28%),
